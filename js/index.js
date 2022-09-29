@@ -25,6 +25,12 @@ const app = {
 //   songs: "../assets/json/test-music-list.json", // chưa được?
   songs: [
     {
+        name: "Ngày Khác Lạ",
+        singer: "Đen x Giang Phạm",
+        path: "./assets/music/y2mate.com - ロクデナシ  ただ声一つ  Rokudenashi  The Voice Official Music Video.mp3",
+        image: "./assets/img/ngay-khac-la.png"
+      },
+    {
       name: "Ngày Khác Lạ",
       singer: "Đen x Giang Phạm",
       path: "./assets/music/Đen - Ngày Khác Lạ ft. Giang Pham, Triple D (M-V).mp3",
