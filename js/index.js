@@ -25,73 +25,139 @@ const app = {
 //   songs: "../assets/json/test-music-list.json", // chưa được?
   songs: [
     {
-        name: "ただ声一つ",
-        singer: "ロクデナシ",
+        id: 1,
+        name: "ただ声一つ (One Voice)",
+        singer: "ロクデナシ (Rokudenashi)",
         path: "./assets/music/y2mate.com - ロクデナシ  ただ声一つ  Rokudenashi  The Voice Official Music Video.mp3",
         // image: "./assets/img/musicicon.png"
-        image: "./assets/img/logoML.png"
+        image: "./assets/img/Rokudenashi.png"
     },
     {
-        name: "Attack on Titan Season 4 Opening",
+        id: 2,
+        name: "Attack on Titan S4",
         singer: "Eren Yeager",
         path: "./assets/music/y2mate.com - Attack on Titan Season 4  Opening FullMy Warby Shinsei Kamattechan.mp3",
-        image: "./assets/img/musicicon.png"
+        image: "./assets/img/aots4.png"
         // image: "./assets/img/logoML.png"
     },
     {
-      name: "Ngày Khác Lạ",
-      singer: "Đen x Giang Phạm",
-      path: "./assets/music/Đen - Ngày Khác Lạ ft. Giang Pham, Triple D (M-V).mp3",
-      image: "./assets/img/ngay-khac-la.png"
+        id: 3,
+        name: "Monster",
+        singer: "YOASOBI",
+        path: "./assets/music/y2mate.com - YOASOBI怪物Official Music Video　YOASOBI  Monster.mp3",
+        image: "./assets/img/yoasobi_monster.png"
     },
     {
-      name: "Happy Now",
-      singer: "Kygo ft. Sandro Cavazza",
-      path: "./assets/music/Kygo - Happy Now ft. Sandro Cavazza (Official Video).mp3",
-      image:
+        id: 4,
+        name: "Ngày Khác Lạ",
+        singer: "Đen x Giang Phạm",
+        path: "./assets/music/Đen - Ngày Khác Lạ ft. Giang Pham, Triple D (M-V).mp3",
+        image: "./assets/img/ngay-khac-la.png"
+    },
+    {
+        id: 5,
+        name: "Happy Now",
+        singer: "Kygo ft. Sandro Cavazza",
+        path: "./assets/music/Kygo - Happy Now ft. Sandro Cavazza (Official Video).mp3",
+        image:
         "./assets/img/happy-now.png"
     },
     {
-      name: "In Your Eyes",
-      singer: "Robin Schulz feat. Alida",
-      path:
-        "assets/music/Robin Schulz feat. Alida – In Your Eyes (Official Music Video).mp3",
-      image: "./assets/img/in-your-eyes.png"
+        id: 6,
+        name: "In Your Eyes",
+        singer: "Robin Schulz feat. Alida",
+        path: "assets/music/Robin Schulz feat. Alida – In Your Eyes (Official Music Video).mp3",
+        image: "./assets/img/in-your-eyes.png"
     },
     {
-      name: "Cô Gái Bàn Bên",
-      singer: "Đen ft. Lynk Lee",
-      path: "./assets/music/Đen - Cô Gái Bàn Bên ft. Lynk Lee (w-lyrics).mp3",
-      image:
+        id: 7,
+        name: "Cô Gái Bàn Bên 💘 UwU",
+        singer: "Đen ft. Lynk Lee",
+        path: "./assets/music/Đen - Cô Gái Bàn Bên ft. Lynk Lee (w-lyrics).mp3",
+        image:
         "assets/img/co-gai-ban-ben.png"
     },
     {
-      name: "Firestone",
-      singer: "Kygo ft. Conrad Sewell",
-      path: "./assets/music/Kygo - Firestone ft. Conrad Sewell (Official Video).mp3",
-      image:
+        id: 8,
+        name: "Firestone",
+        singer: "Kygo ft. Conrad Sewell",
+        path: "./assets/music/Kygo - Firestone ft. Conrad Sewell (Official Video).mp3",
+        image:
         "./assets/img/firestone.png"
     },
     {
-      name: "Papercut",
-      singer: "Zedd ft. Troye Sivan",
-      path: "./assets/music/Zedd - Papercut ft. Troye Sivan (Official Audio).mp3",
-      image:
+        id: 9,
+        name: "Papercut",
+        singer: "Zedd ft. Troye Sivan",
+        path: "./assets/music/Zedd - Papercut ft. Troye Sivan (Official Audio).mp3",
+        image:
         "./assets/img/paper-cut.png"
     },
     {
-      name: "Forever",
-      singer: "Martin Garrix, Matisse & Sadko",
-      path: "./assets/music/Martin Garrix, Matisse & Sadko - Forever (Official Music Video).mp3",
-      image:
+        id: 10,
+        name: "Forever",
+        singer: "Martin Garrix, Matisse & Sadko",
+        path: "./assets/music/Martin Garrix, Matisse & Sadko - Forever (Official Music Video).mp3",
+        image:
         "./assets/img/forever.png"
     },
     {
-      name: "The Nights",
-      singer: "Avicii",
-      path: "./assets/music/Avicii - The Nights.mp3",
-      image:
+        id: 11,
+        name: "The Nights",
+        singer: "Avicii",
+        path: "./assets/music/Avicii - The Nights.mp3",
+        image:
         "./assets/img/the-nights.png"
+    },
+    {
+        id: 12,
+        name: "Renai Circulation",
+        singer: "Lizz Robinett",
+        path: "./assets/music/y2mate.com - AMV Vietsubkara Renai Circulation Bài hát dễ thương về tình yêu .mp3",
+        image: "./assets/img/renai.png"
+    },
+    {
+        id: 13,
+        name: "Halzion",
+        singer: "YOASOBI",
+        path: "./assets/music/y2mate.com - Vietsub Halzion  YOASOBI.mp3",
+        image: "./assets/img/yoasobi_Halzion.png"
+    },
+    {
+        id: 14,
+        name: "Monster",
+        singer: "YOASOBI",
+        path: "./assets/music/y2mate.com - YOASOBI怪物Official Music Video　YOASOBI  Monster.mp3",
+        image: "./assets/img/yoasobi_Monster.png"
+    },
+    {
+        id: 15,
+        name: "「夜に駆ける」",
+        singer: "YOASOBI",
+        path: "./assets/music/y2mate.com - YOASOBI夜に駆ける Official Music Video.mp3",
+        image: "./assets/img/yoasobi_origin.png"
+    },
+    {
+        id: 16,
+        name: "Dan Dan Kokoro ...",
+        // Hikareteku
+        singer: "Zard",
+        path: "./assets/music/y2mate.com - Dragon Ball GT Full Opening Dan Dan Kokoro Hikareteku High Quality Sound  Download Link.mp3",
+        image: "./assets/img/logoML.png"
+    },
+    {
+        id: 17,
+        name: "JJBA Golden Wind OST",
+        singer: "JJBA",
+        path: "./assets/music/y2mate.com - JoJos Bizarre Adventure Golden Wind OST  Giornos Themeil vento doro.mp3",
+        image: "./assets/img/jojo.png"
+    },
+    {
+        id: 18,
+        name: "セクシーパロディウス",
+        singer: "Sexy Parodius (KONAMI)",
+        path: "./assets/music/y2mate.com - SParodiusセクシーパロディウス  Sonic Speed Bath.mp3",
+        image: "./assets/img/musicicon.png"
     },
   ],
   render: function () {
