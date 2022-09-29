@@ -159,6 +159,13 @@ const app = {
         path: "./assets/music/y2mate.com - SParodiusセクシーパロディウス  Sonic Speed Bath.mp3",
         image: "./assets/img/musicicon.png"
     },
+    {
+      id: 18,
+      name: "Ultra Instinct",
+      singer: "SDBH",
+      path: "./assets/music/X2Download.com - Ultra Instinct (Super Dragon Ball Heroes OST) (128 kbps).mp3",
+      image: "./assets/img/react.png"
+    },
   ],
   render: function () {
     const htmls = this.songs.map((song, index) => {
