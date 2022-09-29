@@ -164,7 +164,7 @@ const app = {
       name: "Ultra Instinct",
       singer: "SDBH",
       path: "./assets/music/X2Download.com - Ultra Instinct (Super Dragon Ball Heroes OST) (128 kbps).mp3",
-      image: "./assets/img/react.png"
+      image: "./assets/img/react2.png"
     },
   ],
   render: function () {
