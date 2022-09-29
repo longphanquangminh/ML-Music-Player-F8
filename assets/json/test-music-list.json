@@ -1,0 +1,57 @@
+[
+    {
+      "name": "Ngày Khác Lạ",
+      "singer": "Đen x Giang Phạm",
+      "path": "../music/Đen - Ngày Khác Lạ ft. Giang Pham, Triple D (M-V).mp3",
+      "image": "../img/ngay-khac-la.png"
+    },
+    {
+      "name": "Happy Now",
+      "singer": "Kygo ft. Sandro Cavazza",
+      "path": "../music/Kygo - Happy Now ft. Sandro Cavazza (Official Video).mp3",
+      "image":
+        "../img/happy-now.png"
+    },
+    {
+      "name": "In Your Eyes",
+      "singer": "Robin Schulz feat. Alida",
+      "path":
+        "assets/music/Robin Schulz feat. Alida – In Your Eyes (Official Music Video).mp3",
+      "image": "../img/in-your-eyes.png"
+    },
+    {
+      "name": "Cô Gái Bàn Bên",
+      "singer": "Đen ft. Lynk Lee",
+      "path": "../music/Đen - Cô Gái Bàn Bên ft. Lynk Lee (w-lyrics).mp3",
+      "image":
+        "assets/img/co-gai-ban-ben.png"
+    },
+    {
+      "name": "Firestone",
+      "singer": "Kygo ft. Conrad Sewell",
+      "path": "../music/Kygo - Firestone ft. Conrad Sewell (Official Video).mp3",
+      "image":
+        "../img/firestone.png"
+    },
+    {
+      "name": "Papercut",
+      "singer": "Zedd ft. Troye Sivan",
+      "path": "../music/Zedd - Papercut ft. Troye Sivan (Official Audio).mp3",
+      "image":
+        "../img/paper-cut.png"
+    },
+    {
+      "name": "Forever",
+      "singer": "Martin Garrix, Matisse & Sadko",
+      "path": "../music/Martin Garrix, Matisse & Sadko - Forever (Official Music Video).mp3",
+      "image":
+        "../img/forever.png"
+    },
+    {
+      "name": "The Nights",
+      "singer": "Avicii",
+      "path": "../music/Avicii - The Nights.mp3",
+      "image":
+        "../img/the-nights.png"
+    }
+]
