@@ -25,11 +25,19 @@ const app = {
 //   songs: "../assets/json/test-music-list.json", // chưa được?
   songs: [
     {
-        name: "Ngày Khác Lạ",
-        singer: "Đen x Giang Phạm",
+        name: "ただ声一つ",
+        singer: "ロクデナシ",
         path: "./assets/music/y2mate.com - ロクデナシ  ただ声一つ  Rokudenashi  The Voice Official Music Video.mp3",
-        image: "./assets/img/ngay-khac-la.png"
-      },
+        // image: "./assets/img/musicicon.png"
+        image: "./assets/img/logoML.png"
+    },
+    {
+        name: "Attack on Titan Season 4 Opening",
+        singer: "Eren Yeager",
+        path: "./assets/music/y2mate.com - Attack on Titan Season 4  Opening FullMy Warby Shinsei Kamattechan.mp3",
+        image: "./assets/img/musicicon.png"
+        // image: "./assets/img/logoML.png"
+    },
     {
       name: "Ngày Khác Lạ",
       singer: "Đen x Giang Phạm",
