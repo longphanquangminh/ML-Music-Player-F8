@@ -121,14 +121,14 @@ const app = {
         name: "Halzion",
         singer: "YOASOBI",
         path: "./assets/music/y2mate.com - Vietsub Halzion  YOASOBI.mp3",
-        image: "./assets/img/yoasobi_Halzion.png"
+        image: "./assets/img/yoasobi_halzion.png"
     },
     {
         id: 14,
         name: "Monster",
         singer: "YOASOBI",
         path: "./assets/music/y2mate.com - YOASOBI怪物Official Music Video　YOASOBI  Monster.mp3",
-        image: "./assets/img/yoasobi_Monster.png"
+        image: "./assets/img/yoasobi_monster.png"
     },
     {
         id: 15,
