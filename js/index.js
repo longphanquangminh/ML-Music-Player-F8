@@ -124,11 +124,11 @@ const app = {
         image: "./assets/img/yoasobi_halzion.png"
     },
     {
-        id: 14,
-        name: "Monster",
-        singer: "YOASOBI",
-        path: "./assets/music/y2mate.com - YOASOBI怪物Official Music Video　YOASOBI  Monster.mp3",
-        image: "./assets/img/yoasobi_monster.png"
+      id: 14,
+      name: "Ultra Instinct",
+      singer: "SDBH",
+      path: "./assets/music/X2Download.com - Ultra Instinct (Super Dragon Ball Heroes OST) (128 kbps).mp3",
+      image: "./assets/img/react2.png"
     },
     {
         id: 15,
@@ -158,13 +158,6 @@ const app = {
         singer: "Sexy Parodius (KONAMI)",
         path: "./assets/music/y2mate.com - SParodiusセクシーパロディウス  Sonic Speed Bath.mp3",
         image: "./assets/img/musicicon.png"
-    },
-    {
-      id: 18,
-      name: "Ultra Instinct",
-      singer: "SDBH",
-      path: "./assets/music/X2Download.com - Ultra Instinct (Super Dragon Ball Heroes OST) (128 kbps).mp3",
-      image: "./assets/img/react2.png"
     },
   ],
   render: function () {
