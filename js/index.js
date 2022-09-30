@@ -128,7 +128,7 @@ const app = {
       name: "Ultra Instinct",
       singer: "SDBH",
       path: "./assets/music/X2Download.com - Ultra Instinct (Super Dragon Ball Heroes OST) (128 kbps).mp3",
-      image: "./assets/img/react2.png"
+      image: "./assets/img/ultrainstinct.png"
     },
     {
         id: 15,
@@ -143,7 +143,7 @@ const app = {
         // Hikareteku
         singer: "Zard",
         path: "./assets/music/y2mate.com - Dragon Ball GT Full Opening Dan Dan Kokoro Hikareteku High Quality Sound  Download Link.mp3",
-        image: "./assets/img/logoML.png"
+        image: "./assets/img/gt.png"
     },
     {
         id: 17,
@@ -153,11 +153,18 @@ const app = {
         image: "./assets/img/jojo.png"
     },
     {
-        id: 18,
-        name: "セクシーパロディウス",
-        singer: "Sexy Parodius (KONAMI)",
-        path: "./assets/music/y2mate.com - SParodiusセクシーパロディウス  Sonic Speed Bath.mp3",
-        image: "./assets/img/musicicon.png"
+      id: 18,
+      name: "セクシーパロディウス",
+      singer: "Sexy Parodius (KONAMI)",
+      path: "./assets/music/y2mate.com - SParodiusセクシーパロディウス  Sonic Speed Bath.mp3",
+      image: "./assets/img/sexy.png"
+    },
+    {
+      id: 19,
+      name: "One Piece Compilation OST",
+      singer: "TOEI",
+      path: "./assets/music/y2mate.com - One Piece  Fight Music Compilation OST.mp3",
+      image: "./assets/img/onepiece.png"
     },
   ],
   render: function () {
