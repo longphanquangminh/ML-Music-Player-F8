@@ -166,6 +166,13 @@ const app = {
       path: "./assets/music/y2mate.com - One Piece  Fight Music Compilation OST.mp3",
       image: "./assets/img/onepiece.png"
     },
+    {
+      id: 20,
+      name: "Vương Vấn (Orinn Remix)",
+      singer: "Hana Cẩm Tiên x TVk",
+      path: "./assets/music/vuongvan.mp3",
+      image: "./assets/img/vuongvan.png"
+    },
   ],
   render: function () {
     const htmls = this.songs.map((song, index) => {
